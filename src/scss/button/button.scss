@@ -3,8 +3,8 @@ $btnNormalBgPosition: right -1020px;
 $btnNormalDisabledBgPosition: right -1192px;
 $btnNormalHoverBgPosition: right -1106px;
 
-$btnBg: url("/src/img/button.png") no-repeat 0 9999px;
-$btnBg2: url("/src/img/button2.png") no-repeat 0 9999px;
+$btnBg: url("./img/button.png") no-repeat 0 9999px;
+$btnBg2: url("./img/button2.png") no-repeat 0 9999px;
 
 .netease-button {
     cursor: default;
@@ -37,7 +37,7 @@ $btnBg2: url("/src/img/button2.png") no-repeat 0 9999px;
     }
 
     i {
-        background: url("/src/img/button2.png") no-repeat 0 9999px;
+        background: url("./img/button2.png") no-repeat 0 9999px;
         padding: 0 7px 0 36px;
         float: left;
         height: 31px;

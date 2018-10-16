@@ -501,10 +501,10 @@ li:last-child.activeDeparate::after {
 
 ```scss
 /* Bad example */
-// /sample-web-1.0.0/src/app/vapp-common2/component/grid-column-setting-icon/grid-column-setting-icon.component.scss
+// /sample-web-1.0.0./app/vapp-common2/component/grid-column-setting-icon/grid-column-setting-icon.component.scss
 
 /* Good example */
-// /sample-web-1.0.0/src/app/vapp-common2/component/traffic-common-menu/traffic-common-menu.component.scss
+// /sample-web-1.0.0./app/vapp-common2/component/traffic-common-menu/traffic-common-menu.component.scss
 ```
 
 
@@ -599,16 +599,16 @@ $cLoading: #ff6757;
 @vapp/theme, shared
 ```scss
 /* Bad example */
-// /sample-web-1.0.0/src/app/vapp-common2/component/pw-option/pw-option.component.scss
-// /sample-web-1.0.0/src/app/vapp-common2/component/lsp-option/lsp-option.component.scss
-// /sample-web-1.0.0/src/app/vapp-common2/component/traffic-common-menu/traffic-common-menu.component.scss
+// /sample-web-1.0.0./app/vapp-common2/component/pw-option/pw-option.component.scss
+// /sample-web-1.0.0./app/vapp-common2/component/lsp-option/lsp-option.component.scss
+// /sample-web-1.0.0./app/vapp-common2/component/traffic-common-menu/traffic-common-menu.component.scss
 .advancedQuery {
 }
 .advancedQuery:hover{
 }
 
 /* Good example */
-// /sample-web-1.0.0/src/app/otnm-portal/shared/style/style.scss
+// /sample-web-1.0.0./app/otnm-portal/shared/style/style.scss
 .portal-red-bg {
     background: #E71F19;
 }
