@@ -32,7 +32,7 @@ gulp.task('build-sass', function (done) {
         .pipe(sass())
         .on('error', sass.logError)
         .pipe(autoprefix({browsers: ['last 2 versions']}))
-        .pipe(concat('vapp-theme.css'))
+        .pipe(concat('netease-theme.css'))
         .pipe(gulp.dest(dist_paths.sass))
         .on('end', done);
 });

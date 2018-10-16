@@ -1,0 +1,11 @@
+
+.ant-mention-dropdown {
+    .ant-mention-dropdown-item {
+        &:hover {
+            background: #e6e6e6;
+        }
+    }
+    .focus {
+        background: #f7f7f7;
+    }
+}
