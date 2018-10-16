@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+cd ../
 # yarn安装
 
 npm version patch
