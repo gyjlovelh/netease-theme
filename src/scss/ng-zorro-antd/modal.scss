@@ -1,0 +1,18 @@
+
+.override {
+    .ant-modal-content {
+        .ant-modal-header {
+            position: relative;
+            z-index: 10;
+            border-bottom: 1px solid #191919;
+            border-radius: 4px 4px 0 0;
+            background: #2d2d2d;
+            height: 38px;
+            line-height: 38px;
+
+            .ant-modal-title {
+                line-height: inherit;
+            }
+        }
+    }
+}
