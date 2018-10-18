@@ -107,6 +107,16 @@
                 background-position: -42px -98px;
             }
         }
+
+        &.mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 34px;
+            height: 35px;
+            background-position: 0 -80px;
+        }
     }
 }
 
