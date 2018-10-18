@@ -1,6 +1,6 @@
 {
     "name": "@netease/theme",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "netease theme project",
     "private": false,
     "scripts": {
