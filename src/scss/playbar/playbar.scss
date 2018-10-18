@@ -52,6 +52,16 @@
         }
     }
 
+    &.mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 34px;
+        height: 35px;
+        background-position: 0 -80px;
+    }
+
     &.playbar-icn {
         float: left;
         width: 25px;
@@ -108,15 +118,6 @@
             }
         }
 
-        &.mask {
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: block;
-            width: 34px;
-            height: 35px;
-            background-position: 0 -80px;
-        }
     }
 }
 
