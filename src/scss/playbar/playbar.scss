@@ -115,6 +115,15 @@
             }
         }
 
+        &.shade-left {
+            position: relative;
+            z-index: 10;
+            float: none;
+            width: 113px;
+            height: 36px;
+            padding-left: 13px;
+            background-position: -147px -238px;
+        }
     }
 }
 
