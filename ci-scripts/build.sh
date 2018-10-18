@@ -7,6 +7,12 @@ if [ $? == 0 ]
 then echo "升级theme工程版本成功!"
 else
 git commit -a -m "auto commit"
+npm version patch
+if [ $? == 0 ]
+then echo "升级theme工程版本成功!"
+else
+echo "升级theme工程版本失败!"
+fi
 echo "auto commit"
 fi
 
