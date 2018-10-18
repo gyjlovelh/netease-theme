@@ -1,4 +1,15 @@
 .netease-icon {
     background-image: url("./img/iconall.png");
+
+    // playbar进度条上的点点
+    &.netease-icon-alpha {
+        width: 22px;
+        height: 24px;
+        background-position: 0 -250px;
+
+        &:hover {
+            background-position: 0 -280px;
+        }
+    }
 }
 
