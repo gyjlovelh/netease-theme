@@ -1,11 +1,12 @@
 {
     "name": "@netease/theme",
-    "version": "0.0.20",
+    "version": "1.0.0",
     "description": "netease theme project",
     "private": false,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "package": "gulp build build-link",
+        "jinkens": "bash ci-scripts/build.sh",
         "link": "cd dist & npm link"
     },
     "author": "guanyj",
